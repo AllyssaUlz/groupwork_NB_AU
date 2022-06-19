@@ -21,8 +21,6 @@
             <timezone>Europe/Vienna</timezone>
             <url>https://github.com/AllyssaUlz/groupwork_NB_AU.git</url>
         </developer>
-    </developers>
-    <developers>
         <developer>
             <id>NataschaBaumgartner</id>
             <name>Natascha Baumgartner</name>
@@ -36,6 +34,7 @@
             <url>https://github.com/AllyssaUlz/groupwork_NB_AU.git</url>
         </developer>
     </developers>
+
         <build>
             <plugins>
                 <plugin>
