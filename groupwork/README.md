@@ -1,4 +1,4 @@
-# Team Work
+# Group Work
 ### Projectname
 [groupwork_NB_AU](https://github.com/AllyssaUlz/groupwork_NB_AU.git)
 
