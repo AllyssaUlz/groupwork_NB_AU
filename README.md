@@ -34,18 +34,18 @@
 - [x] AU - Make the changes available to your colleagues and don't forget to update the tasklist
 
 #### NEW Implementation
-- [ ] NB - Create parallel to your current Version a new implementation
-- [ ] NB - Integrate the "Drinks" - Interface and implementing class in the project
-- [ ] NB - Create a queue version they will enable "Drinks" to manage in a queue
+- [ ] AU - Create parallel to your current Version a new implementation
+- [ ] AU - Integrate the "Drinks" - Interface and implementing class in the project
+- [ ] AU - Create a queue version they will enable "Drinks" to manage in a queue
 - [ ] AU & NB - Share the methods specified by the interface, so every group member create the same number of methods. Set your parts in your own branch
-- [ ] NB - Add JavaDoc commentary for the current classes and for the new variants
-- [ ] NB - Make the changes available to your colleagues
+- [ ] AU - Add JavaDoc commentary for the current classes and for the new variants
+- [ ] AU - Make the changes available to your colleagues
 
 #### Tests
-- [ ] AU - Create test methods to have a hundred percent for the existing implantation to recive all test cover
-- [ ] AU - Create a further test file and test the new "Drinks" version with a class you choose - Reach a 100 % test cover
-- [ ] AU - Describe in the JavaDoc & comments how you use which aspect testing.
-- [ ] AU - Divide the testing within the group and put them in a branch
+- [ ] NB - Create test methods to have a hundred percent for the existing implantation to recive all test cover
+- [ ] NB - Create a further test file and test the new "Drinks" version with a class you choose - Reach a 100 % test cover
+- [ ] NB - Describe in the JavaDoc & comments how you use which aspect testing.
+- [ ] NB - Divide the testing within the group and put them in a branch
 - [ ] NB - The mvn test from the command line must run without errors
 - [ ] NB - Make the changes available to your colleagues
 
