@@ -17,6 +17,11 @@ public class StringQueue implements IQueue {
     maxSize = maxSize;
   }
 
+  /**
+   * Adds a string to the menu
+   * @param obj   data type Object to add various types of data to list
+   * @return true if successful and false is unsuccessful
+   */
   @Override
   public boolean offer(String obj) {
     if (elements.size() != maxSize)
@@ -27,27 +32,40 @@ public class StringQueue implements IQueue {
     return true;
   }
 
+  /**
+   * deletes the first element from the list
+   * @return first drink if its in the list or else null if none are in the list
+   */
   @Override
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
+    if (elements.size() > 0) {
       elements.remove(0);
     }
 
     return element;
   }
 
+  /**
+   * removes the first element from the list
+   * @return first element or
+   * @throws NoSuchElementException if nothing in the list
+   */
   @Override
   public String remove() {
     String element = poll();
-    element = "";
+
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
     return element;
   }
 
+  /**
+   * gets the very first string in the list
+   * @return null or the first element
+   */
   @Override
   public String peek() {
     String element;
@@ -59,6 +77,11 @@ public class StringQueue implements IQueue {
     return element;
   }
 
+  /**
+   * gets the very first string in the list
+   * @return the first string if one is in the list else
+   * @throws NoSuchElementException
+   */
   @Override
   public String element() {
     String element = peek();
